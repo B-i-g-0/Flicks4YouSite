@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(2, 2, 24);
+}
+
+#header{
+    background-color: rgb(87, 211, 87);
+    text-align: center;
+}
+#flicks{
+    display: inline;
+}
+
+a{
+    font-size:large;
+    margin-left: 85%;
+}
+
+main p{
+    color:antiquewhite;
+    font-family: sans-serif;
+}
+
+main #four{
+    color: rgb(87, 211, 87);
+}
+
+#heading{
+    text-align: center;
+    font-weight: 200;
+    font-size: xx-large;
+    font-family:'Segoe UI', sans-serif;
+    
+}
+
+div{
+    width: 50%;
+    margin-left: 25%;
+}
+
+form{
+    background-color: white;
+    text-align: center;
+    
+    border-radius: 50px;
+    border: solid 4px rgb(87, 211, 87);
+    
+}
+
+#formhead{
+    text-align: center;
+    color: rgb(87, 211, 87);
+}
+input {
+    border: solid;
+    border-radius: 10px;
+}
+
+label{
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+button{
+    background-color: rgb(2, 2, 24);
+    color: rgb(87, 211, 87);
+    border-radius: 10px;
+}
+
+
+footer p{
+    color: antiquewhite;
+    text-align: center;
+    font-family: sans-serif;
+}
+#star-canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
