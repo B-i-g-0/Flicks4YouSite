@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/log_styles.css">
     <title>Flicks4You</title>
-
+    <script defer href="../js/authentification.js"></script>
 </head>
 <body>
     <!--<canvas id="star-canvas"></canvas>-->
@@ -18,15 +18,15 @@
         <p id="heading"><b>Flicks4You</b></p>
         <p id="formhead"><b>LOGIN</b></p>
         <div>
-        <form>
+        <form id="logform">
             <br><br>
             <!--<label for="uname">Username</label>-->
             <input type="text" id="uname" placeholder="Username" required><br><br>
             <!--<label for="pass">Password</label>-->
-            <input type="password" id="pass" placeholder="Password" minlength="8"><br><br><br>
+            <input type="password" id="pass" placeholder="Password" required minlength="8"><br><br>
             <button id="log">Sign In</button>
-            <button id="resetpass">Forgot Password</button>
-            <button id="sign">Sign Up</button><br><br>
+            <button id="resetpass">Forgot Password</button><br><br>
+            <p id="newuser">New here?</p><a href="../pages/signUp.html">Create an account</a>
             
             <br><br>
         </form>
